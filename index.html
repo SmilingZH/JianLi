@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>视觉传达设计作品集</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">SmilingZH</div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#academic">学校作品</a></li>
+                <li><a href="#internship">实习作品</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 首页部分 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>你好，我是 <span class="highlight">设计师</span></h1>
+                <h2>视觉传达设计专业</h2>
+                <p>专注于品牌视觉、平面设计与创意表达</p>
+                <a href="#academic" class="btn">浏览作品</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我部分 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>关于我</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="img/me.jpg" alt="个人照片">
+                </div>
+                <div class="about-text">
+                    <h3>视觉传达设计专业学生</h3>
+                    <p>我是一名充满激情的视觉传达设计专业学生，拥有扎实的设计理论基础和超过六个月的实习经验。在学习期间，我掌握了包装设计、创意设计、标识设计、海报设计、展示设计、信息可视化设计和书籍设计等多种设计技能。
+                    </p>
+                    <p>在实习期间，我主要负责珠宝品牌的广告画面延展设计，根据不同节日节点进行对应画面延展设计，包括中秋节、国庆节、双十一、圣诞节、元旦、春节、情人节、妇女节等节日主题的广告设计。</p>
+                    <div class="skills">
+                        <div class="skill">
+                            <span>Photoshop</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Illustrator</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>VS-Code</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Blender</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 学校作品部分 -->
+    <section id="academic" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>学校作品</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="packaging">包装设计</button>
+                <button class="filter-btn" data-filter="creative">标识设计</button>
+                <button class="filter-btn" data-filter="poster">海报设计</button>
+                <button class="filter-btn" data-filter="book">书籍设计</button>
+                <button class="filter-btn" data-filter="infovis">信息可视化</button>
+                <button class="filter-btn" data-filter="exhibition">展示设计</button>
+
+            </div>
+            <div class="portfolio-grid">
+
+                <!-- 包装设计作品 -->
+                <div class="portfolio-item packaging">
+                    <div class="portfolio-img">
+                        <img src="img/academic/包装设计/包装设计.jpg" alt="包装设计">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>高庙红薯包装/项山脐橙包装</h3>
+                                <p>包装设计 | 2023</p>
+                                <a href="#" class="portfolio-link" data-id="packaging-1">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 标识设计作品 -->
+                <div class="portfolio-item creative">
+                    <div class="portfolio-img">
+                        <img src="img/academic/标识设计/标识设计.jpg" alt="标识设计">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>亿福康标识</h3>
+                                <p>标识设计 | 2023</p>
+                                <a href="#" class="portfolio-link" data-id="creative-1">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 创意设计作品 -->
+                <div class="portfolio-item logo">
+                    <div class="portfolio-img">
+                        <img src="img/academic/创意设计/创意设计.jpg" alt="创意设计">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>兔年日历创意</h3>
+                                <p>创意设计 | 2023</p>
+                                <a href="#" class="portfolio-link" data-id="logo-1">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 海报设计作品 -->
+                <div class="portfolio-item poster">
+                    <div class="portfolio-img">
+                        <img src="img/academic/海报设计/海报设计001.jpg" alt="海报设计作品">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>银鹭植物 | 电解制水</h3>
+                                <p>海报设计 | 2023</p>
+                                <a href="#" class="portfolio-link" data-id="poster-1">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 书籍设计作品 -->
+                <div class="portfolio-item book">
+                    <div class="portfolio-img">
+                        <img src="img/academic/书籍设计/书籍设计001.jpg" alt="书籍设计作品">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>书籍设计</h3>
+                                <p>书籍设计 | 2023</p>
+                                <a href="#" class="portfolio-link" data-id="book-1">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 信息可视化设计作品 -->
+                <div class="portfolio-item infovis">
+                    <div class="portfolio-img">
+                        <img src="img/academic/信息可视化/信息可视化.jpg" alt="信息可视化作品">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>信息可视化设计</h3>
+                                <p>信息可视化设计 | 2023</p>
+                                <a href="#" class="portfolio-link" data-id="infovis-1">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 展示设计作品 -->
+                <div class="portfolio-item exhibition">
+                    <div class="portfolio-img">
+                        <img src="img/academic/展示设计/展示设计.jpg" alt="展示设计作品">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3></h3>
+                                <p>展示设计 | 2023</p>
+                                <a href="#" class="portfolio-link" data-id="exhibition-1">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!-- 实习作品部分 -->
+    <section id="internship" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>实习作品</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="internship-wrapper">
+                <div class="internship-scroll" id="internship-container">
+                    <!-- 实习作品图片将通过JavaScript动态加载 -->
+                </div>
+            </div>
+            <div class="view-more-container">
+                <button class="view-more-btn">查看更多作品</button>
+            </div>
+            <div class="loading-indicator" id="internship-loading">
+                <div class="loading-spinner"></div>
+                <p>正在加载更多作品...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 固定在右侧的收起按钮 -->
+    <button class="collapse-btn" id="collapse-btn" title="收起作品">
+        <i class="fas fa-angle-up"></i>
+    </button>
+
+    <!-- 作品详情模态框 -->
+    <div class="modal" id="portfolio-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-gallery">
+                    <div class="main-image">
+                        <img src="" alt="作品大图" id="modal-main-image">
+                    </div>
+                    <div class="thumbnail-gallery" id="modal-thumbnails">
+                        <!-- 缩略图会通过JavaScript动态添加 -->
+                    </div>
+                </div>
+                <div class="modal-info">
+                    <h2 id="modal-title">作品标题</h2>
+                    <p class="modal-category" id="modal-category">作品类别 | 年份</p>
+                    <div class="modal-description" id="modal-description">
+                        <p>作品详情描述将在这里显示...</p>
+                    </div>
+                    <div class="modal-tools">
+                        <h3>使用工具</h3>
+                        <div class="tools-list" id="modal-tools-list">
+                            <!-- 工具标签会通过JavaScript动态添加 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 联系部分 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>联系我</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content centered">
+                <div class="contact-info">
+                    <div class="contact-row">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>邮箱</h3>
+                                <p>smilingzh@qq.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>电话</h3>
+                                <p>15737672819</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-weibo"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <!-- <p>&copy; 2025 视觉传达设计作品集. 保留所有权利.</p> -->
+        </div>
+    </footer>
+
+    <!-- 作品数据 -->
+    <script src="js/portfolio-data.js"></script>
+    <!-- 主脚本 -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
